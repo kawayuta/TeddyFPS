@@ -88,6 +88,8 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 'Assets/script/TeddyRandom.cs'
+'Assets/script/TeddyRandom2.cs'
 'Assets/script/me.cs'
+'Assets/script/me2.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'

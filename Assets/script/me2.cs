@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class me : MonoBehaviour {
+public class me2 : MonoBehaviour {
 
 	CharacterController controller; 
 	Vector3 moveDirection; 
@@ -15,12 +15,12 @@ public class me : MonoBehaviour {
 	void Start () {
 		controller = GetComponent("CharacterController") as CharacterController; 
 	}
-	
+
 	void Update () {
 
-		Vector3 forward = GameObject.Find("Main Camera").transform.TransformDirection( Vector3.forward ); 
-		Vector3 right = GameObject.Find("Main Camera").transform.TransformDirection( Vector3.right ); 
-		moveDirection = Input.GetAxis("Horizontal") * right + Input.GetAxis("Vertical") * forward; 
+		Vector3 forward = GameObject.Find("Main Camera2").transform.TransformDirection( Vector3.forward ); 
+		Vector3 right = GameObject.Find("Main Camera2").transform.TransformDirection( Vector3.right ); 
+		moveDirection = Input.GetAxis("Horizontal2") * right + Input.GetAxis("Vertical2") * forward; 
 		moveDirection *= fSpeed; 
 
 		// 移動 
@@ -38,9 +38,9 @@ public class me : MonoBehaviour {
 		if (Input.GetKey (KeyCode.B) && get == false && check == false) {
 
 			if (postCount > 0) {
-				
+
 				int Ca = postCount;
-				Vector3 nw = GameObject.Find ("meteddy").transform.position;
+				Vector3 nw = GameObject.Find ("meteddy2").transform.position;
 				nw.z += 3;
 				Vector3 force;
 
@@ -66,15 +66,15 @@ public class me : MonoBehaviour {
 
 	void raytest()
 	{
-		
+
 		Ray ray = new Ray (transform.position, new Vector3 (0, 0, 1));
 		RaycastHit hit;
 		int distance = 6;
 
-		Vector3 nw = GameObject.Find ("meteddy").transform.position;
+		Vector3 nw = GameObject.Find ("meteddy2").transform.position;
 		nw.z += 3;
 		if (Physics.Raycast (ray, out hit, distance)) {
-			
+
 			if (Input.GetKey (KeyCode.Space) && get == false && check == false && hit.collider.tag == "teddy") {
 				Destroy (hit.collider.gameObject);
 				postCount++;
@@ -87,6 +87,6 @@ public class me : MonoBehaviour {
 
 		}
 	}
-		
+
 
 }
