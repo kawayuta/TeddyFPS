@@ -28,10 +28,10 @@ public class me : MonoBehaviour {
 
 
 		if (Input.GetKey ( KeyCode.F)) {
-			transform.Rotate (0, -1, 0);
+			transform.Rotate (0, -5, 0);
 		}
 		if (Input.GetKey ( KeyCode.H)) {
-			transform.Rotate (0, 1, 0);
+			transform.Rotate (0, 5, 0);
 		}			
 
 		raytest ();
@@ -49,6 +49,7 @@ public class me : MonoBehaviour {
 				force = this.gameObject.transform.forward * speed;
 				// Rigidbodyに力を加えて発射
 				bullets.GetComponent<Rigidbody>().AddForce (force);
+				bullets.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
 				postCount--;
 				float ranX = Random.Range (-200, 200);
 				float ranY = Random.Range (100, 150);

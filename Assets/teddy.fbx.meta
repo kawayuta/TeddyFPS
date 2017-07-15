@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: a070408bc5789405fa743c4fd0bc9c8d
+timeCreated: 1500086572
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Character1_Ctrl_ChestEndEffector
+    100002: Character1_Ctrl_ChestOriginEffector
+    100004: Character1_Ctrl_Head
+    100006: Character1_Ctrl_HeadEffector
+    100008: Character1_Ctrl_Hips
+    100010: Character1_Ctrl_HipsEffector
+    100012: Character1_Ctrl_LeftAnkleEffector
+    100014: Character1_Ctrl_LeftArm
+    100016: Character1_Ctrl_LeftElbowEffector
+    100018: Character1_Ctrl_LeftFoot
+    100020: Character1_Ctrl_LeftForeArm
+    100022: Character1_Ctrl_LeftHand
+    100024: Character1_Ctrl_LeftHipEffector
+    100026: Character1_Ctrl_LeftKneeEffector
+    100028: Character1_Ctrl_LeftLeg
+    100030: Character1_Ctrl_LeftShoulderEffector
+    100032: Character1_Ctrl_LeftUpLeg
+    100034: Character1_Ctrl_LeftWristEffector
+    100036: Character1_Ctrl_Reference
+    100038: Character1_Ctrl_RightAnkleEffector
+    100040: Character1_Ctrl_RightArm
+    100042: Character1_Ctrl_RightElbowEffector
+    100044: Character1_Ctrl_RightFoot
+    100046: Character1_Ctrl_RightForeArm
+    100048: Character1_Ctrl_RightHand
+    100050: Character1_Ctrl_RightHipEffector
+    100052: Character1_Ctrl_RightKneeEffector
+    100054: Character1_Ctrl_RightLeg
+    100056: Character1_Ctrl_RightShoulderEffector
+    100058: Character1_Ctrl_RightUpLeg
+    100060: Character1_Ctrl_RightWristEffector
+    100062: Character1_Ctrl_Spine
+    100064: joint1
+    100066: joint14
+    100068: joint15
+    100070: joint16
+    100072: joint18
+    100074: joint19
+    100076: joint2
+    100078: joint20
+    100080: joint22
+    100082: joint23
+    100084: joint24
+    100086: joint3
+    100088: joint4
+    100090: joint5
+    100092: joint6
+    100094: //RootNode
+    100096: polySurface18
+    100098: polySurface5
+    100100: polySurface6
+    400000: Character1_Ctrl_ChestEndEffector
+    400002: Character1_Ctrl_ChestOriginEffector
+    400004: Character1_Ctrl_Head
+    400006: Character1_Ctrl_HeadEffector
+    400008: Character1_Ctrl_Hips
+    400010: Character1_Ctrl_HipsEffector
+    400012: Character1_Ctrl_LeftAnkleEffector
+    400014: Character1_Ctrl_LeftArm
+    400016: Character1_Ctrl_LeftElbowEffector
+    400018: Character1_Ctrl_LeftFoot
+    400020: Character1_Ctrl_LeftForeArm
+    400022: Character1_Ctrl_LeftHand
+    400024: Character1_Ctrl_LeftHipEffector
+    400026: Character1_Ctrl_LeftKneeEffector
+    400028: Character1_Ctrl_LeftLeg
+    400030: Character1_Ctrl_LeftShoulderEffector
+    400032: Character1_Ctrl_LeftUpLeg
+    400034: Character1_Ctrl_LeftWristEffector
+    400036: Character1_Ctrl_Reference
+    400038: Character1_Ctrl_RightAnkleEffector
+    400040: Character1_Ctrl_RightArm
+    400042: Character1_Ctrl_RightElbowEffector
+    400044: Character1_Ctrl_RightFoot
+    400046: Character1_Ctrl_RightForeArm
+    400048: Character1_Ctrl_RightHand
+    400050: Character1_Ctrl_RightHipEffector
+    400052: Character1_Ctrl_RightKneeEffector
+    400054: Character1_Ctrl_RightLeg
+    400056: Character1_Ctrl_RightShoulderEffector
+    400058: Character1_Ctrl_RightUpLeg
+    400060: Character1_Ctrl_RightWristEffector
+    400062: Character1_Ctrl_Spine
+    400064: joint1
+    400066: joint14
+    400068: joint15
+    400070: joint16
+    400072: joint18
+    400074: joint19
+    400076: joint2
+    400078: joint20
+    400080: joint22
+    400082: joint23
+    400084: joint24
+    400086: joint3
+    400088: joint4
+    400090: joint5
+    400092: joint6
+    400094: //RootNode
+    400096: polySurface18
+    400098: polySurface5
+    400100: polySurface6
+    2300000: polySurface5
+    2300002: polySurface6
+    3300000: polySurface5
+    3300002: polySurface6
+    4300000: polySurface5
+    4300002: polySurface6
+    4300004: polySurface18
+    9500000: //RootNode
+    13700000: polySurface18
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

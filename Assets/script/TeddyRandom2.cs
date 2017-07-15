@@ -25,14 +25,14 @@ public class TeddyRandom2 : MonoBehaviour {
 
 	void Start () {
 
-		float ranXp = Random.Range (-200, 200);
-		float ranZp = Random.Range (-200, 200);
+		float ranXp = Random.Range (-200.0f, 200.0f);
+		float ranZp = Random.Range (-200.0f, 200.0f);
 		GameObject.Find ("meteddy2").transform.position = new Vector3 (ranXp, 2.6f, ranZp);
-		for (int i = 0; i < 200; i++) {
+		for (int i = 0; i < 100; i++) {
 
-			float ranX = Random.Range (-200, 200);
+			float ranX = Random.Range (-200.0f, 200.0f);
 			float ranY = Random.Range (30, 60);
-			float ranZ = Random.Range (-200, 200);
+			float ranZ = Random.Range (-200.0f, 200.0f);
 
 			Instantiate (Teddyprefab, new Vector3 (ranX, ranY, ranZ), Quaternion.identity);
 

@@ -28,7 +28,7 @@ public class TeddyRandom : MonoBehaviour {
 		float ranXp = Random.Range (-200, 200);
 		float ranZp = Random.Range (-200, 200);
 		GameObject.Find ("meteddy").transform.position = new Vector3 (ranXp, 2.6f, ranZp);
-		for (int i = 0; i < 200; i++) {
+		for (int i = 0; i < 100; i++) {
 			
 			float ranX = Random.Range (-200, 200);
 			float ranY = Random.Range (30, 60);
